@@ -12,6 +12,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=springboot-maven'
+    'jenkins.io/job-full-name': springboot-maven
 spec:
   type: service
   lifecycle: experimental
